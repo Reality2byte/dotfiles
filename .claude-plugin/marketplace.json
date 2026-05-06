@@ -25,6 +25,11 @@
       "description": "Evaluate unresolved review comments on the current branch's PR and, after user confirmation, address each in a separate sub-agent and separate commit."
     },
     {
+      "name": "pr-pending-feedback",
+      "source": "./claude/skills/pr-pending-feedback",
+      "description": "Evaluate pending (unsubmitted) review comments on the current branch's PR and, after user confirmation, address each in a separate sub-agent and separate commit."
+    },
+    {
       "name": "rebase",
       "source": "./claude/skills/rebase",
       "description": "Interactive rebase workflow."

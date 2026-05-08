@@ -10,6 +10,11 @@
       "description": "Git bisect to find the first bad commit by running a test command."
     },
     {
+      "name": "dependabot-prs",
+      "source": "./claude/skills/dependabot-prs",
+      "description": "Review and merge open Dependabot pull requests."
+    },
+    {
       "name": "fix-all",
       "source": "./claude/skills/fix-all",
       "description": "Run bin/claude-review --print and automatically fix all reported issues, committing each fix individually."

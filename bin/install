@@ -12,6 +12,7 @@ ln -is $(readlink -f kitty) ~/.config/kitty
 ln -is $(readlink -f aerospace) ~/.config/aerospace
 
 mkdir -p ~/.claude/skills
+ln -is $(readlink -f claude/skills/dependabot-prs) ~/.claude/skills/dependabot-prs
 ln -is $(readlink -f claude/skills/gfix) ~/.claude/skills/gfix
 ln -is $(readlink -f claude/skills/pr-feedback) ~/.claude/skills/pr-feedback
 ln -is $(readlink -f claude/skills/pr-pending-feedback) ~/.claude/skills/pr-pending-feedback

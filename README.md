@@ -71,6 +71,16 @@ The `claude/` directory is a [Claude Code plugin](https://code.claude.com/docs/e
 /plugin install review-queue@ryanb-dotfiles
 ```
 
+### dependabot-prs preferences
+
+Create `~/.claude/dependabot-prs.json` to give per-repo instructions to the skill (e.g. limit to certain labels):
+
+```json
+{
+  "owner/repo": "Only handle PRs with the javascript label."
+}
+```
+
 ### review-queue preferences
 
 Create `~/.claude/review-queue.json` to customize which PRs are prioritized per repo:
